@@ -8,10 +8,10 @@ spec:
     image: nginx
     resources:
     # soft limit
-    requests:
-      memory: "68Mi"
-      cpu: "100m" # 1/10th of cpu
+      requests:
+        memory: "68Mi"
+        cpu: "100m" # 1/10th of cpu
     # hard limit
-    limits: 
-      memory: "100Mi" # limits should be equal or greater than requests
-      cpu: "120m"
+      limits: 
+        memory: "100Mi" # limits should be equal or greater than requests
+        cpu: "120m"
